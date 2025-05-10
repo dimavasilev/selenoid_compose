@@ -1,0 +1,17 @@
+{
+    "chrome":   {
+        "default": "latest",
+        "versions": {
+            "latest": {
+                "image": "selenoid/chrome:latest",
+                "port": "4444",
+                "path": "/"
+            },
+            "121.0": {
+                "image": "selenoid/chrome:121.0",
+                "port": "4444",
+                "path": "/"
+            }
+        }
+    }
+}
