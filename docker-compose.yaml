@@ -22,7 +22,6 @@ services:
     image: aerokube/selenoid-ui:1.10.11
     networks:
       - selenoid1
-      - selenoid2
     ports:
       - "8080:8080"
     depends_on: ["ggr_ui"]
